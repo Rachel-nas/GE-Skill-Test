@@ -14,4 +14,13 @@ RSpec.describe "Pages", type: :request do
       expect(response.body).to include("/foo/bar")
     end
   end
+
+  describe "redirect" do
+    context "with redirections.yml file" do
+      it "returns redirect" do
+        get "/fr/compare-pricing"
+        expect(response).to redirect_to("/fr/pricing#compare-plan")
+      end
+    end
+  end 
 end

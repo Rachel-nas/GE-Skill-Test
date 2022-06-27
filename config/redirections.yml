@@ -1,0 +1,15 @@
+/fr/compare-pricing:
+  to: /fr/pricing#compare-plan
+  status: 301
+/fr/pdfs/compare-pricing.pdf:
+  to: /fr/documents
+  status: 301
+/de/company-creation:
+  to: /de/capital-deposit
+  status: 301
+/fr/company-creation:
+  to: /fr/capital-deposit
+fr/hello:
+  to: /fr/hello_world
+de/sme/firmenkonto-worauf-ist-zu-achten:
+  to: de/open-an-account/firmenkonto
