@@ -5,6 +5,7 @@ RSpec.describe "Pages", type: :request do
     it "returns http success" do
       get "/pages/show"
       expect(response).to have_http_status(:success)
+      expect(response.body).to include("/pages/show")
     end
   end
 
