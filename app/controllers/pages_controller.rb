@@ -3,7 +3,7 @@ class PagesController < ApplicationController
     path = request.path
     redirection = redirect?(path)
     if redirection
-      redirect_to(redirection["to"], status: redirection["status"])
+      redirect_to(redirection["to"], status: redirection["status"], allow_other_host: true)
     else
       @url = path
     end

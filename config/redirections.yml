@@ -13,3 +13,5 @@
   to: /fr/hello_world
 /de/sme/firmenkonto-worauf-ist-zu-achten:
   to: /de/open-an-account/firmenkonto
+/en/vouchers:
+  to: https://help.qonto.com/en/articles/4460395-voucher-terms-andconditions
